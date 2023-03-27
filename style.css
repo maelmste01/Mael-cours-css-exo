@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+
+    
+    background-image: url(BG.jpg); /* Ceci est l'image de fond du site */
+    background-repeat: no-repeat; /* Pour pas que l'image se répète */
+    height: 170vh;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; /* Pour fixé l'image */
+}
+
+h2{
+
+
+background :linear-gradient(blue, white); /* Pour donner la couleur sur sur les titres h2 */
+border-radius: 20px 0 20px 0; /* Pour arrondir les bord */
+
+}
+
+h1{
+
+text-align: center; /* Pour centrer les titres h1 */
+text-transform : uppercase;
+font-family: 'Press Start 2P', cursive; /* Ceci est la police de famille */
+background-color: black; /* Couleur du fond des titres */
+border-radius: 30px;
+color: white; /* Pour ajouter la couleur blanche sur les titres h1 */
+
+}
+
+
+a{
+    color: black; /* Couleur des texte */
+}
+
+em{
+
+    color: #168314d6; /* Pour ajouter la couleur vert sur les texte en italique */
+}
+
+
+  
+    .lien_cours {
+        border: solid 5px green; /* Pour ajouter un encadré vert */
+        padding: 0px;
+        border-radius: 10px;
+        margin-top: 20px; /* La marge du haut */
+        
+        
+    
+    }
+
+    .lien_2 {
+        border: solid 5px green; 
+        padding: 10px;
+        border-radius: 10px; /* Bordure en dégradé */
+        margin-top: 20px;
+        
+    }
+    
+
+    .lien_cours li {
+        list-style: none;
+        height: 150px;
+        width: 150px;
+        margin: auto;
+        border: solid 2px green;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+
+    .lien_2 li  {
+        list-style: none;
+        height: 150px; /* Hauteur 150 pixel */
+        width: 150px; /* Largeur 150 pixel */
+        margin: auto; /* Marge */
+        border: solid 2px green;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Aligner les items au centre */
+
+    }
+
+ol,p {
+
+background: rgb(255, 255, 255, 0.5); /* Ajouter du gris en couleur de fond sur les listes ol */
+
+}
+
+ul,p {
+
+    background: rgb(255, 255, 255, 0.5);  /* Ajouter du gris en couleur de fond sur les listes ul */
+
+    
+    }
+
+    ol{
+
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    ul{
+
+        padding: 0;
+        display: flex;
+        justify-content: space-around; /* Arrondir les bord */
+
+    }
